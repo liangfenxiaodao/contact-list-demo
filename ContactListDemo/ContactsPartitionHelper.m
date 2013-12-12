@@ -19,7 +19,7 @@
 
   NSUInteger sectionCount = [[_collation sectionTitles] count];
 
-  NSMutableArray *unsortedSections = [self createUnsortedSectionsWith:contacts collation:_collation sectionCount:sectionCount];
+  NSMutableArray *unsortedSections = [self createUnsortedSectionsWith:contacts sectionCount:sectionCount];
 
   NSMutableArray *sections = [NSMutableArray arrayWithCapacity:sectionCount];
 
@@ -31,7 +31,7 @@
   return sections;
 }
 
-- (NSMutableArray *)createUnsortedSectionsWith:(NSArray *)contacts collation:(UILocalizedIndexedCollation *)collation sectionCount:(NSUInteger)sectionCount {
+- (NSMutableArray *)createUnsortedSectionsWith:(NSArray *)contacts sectionCount:(NSUInteger)sectionCount {
   NSMutableArray *unsortedSections = [NSMutableArray arrayWithCapacity:sectionCount];
 
   //create an array to hold the data for each section
@@ -42,7 +42,7 @@
 
   //put each object into a section
   for (id object in contacts) {
-    NSInteger index = [collation sectionForObject:object collationStringSelector:@selector(lastName)];
+    NSInteger index = [_collation sectionForObject:object collationStringSelector:@selector(lastName)];
     [unsortedSections[(NSUInteger) index] addObject:object];
   }
   return unsortedSections;
