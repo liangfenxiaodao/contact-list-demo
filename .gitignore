@@ -1,21 +1,27 @@
 # Xcode
-.DS_Store
-*/build/*
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-profile
-*.moved-aside
-DerivedData
-.idea/
-*.hmap
-*.xccheckout
-
-#CocoaPods
+build/*
+!default.xcworkspace
+!project.xcworkspace
+womm.xcodeproj/project.xcworkspace/xcuserdata
+womm.xcodeproj/xcuserdata
+womm.xcworkspace/xcuserdata
+womm.xcworkspace/xcshareddata/womm.xccheckout
+# Artifacts
+*.ipa
+*.tar.gz
+*.out
+*.dSYM.zip
+# Pods
 Pods
+.idea
+
+# tests and coverage
+tests
+coverage.zip
+compile_commands.json
+coverage.info
+output
+integration/tmp
+
+# OS X
+.DS_Store
