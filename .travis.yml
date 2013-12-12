@@ -1,3 +1,4 @@
 language: objective-c
 xcode_project: ContactListDemo.xcodeproj
 xcode_scheme: ContactListDemo
+sdk: iphonesimulator
