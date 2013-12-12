@@ -18,7 +18,11 @@
 		39232364185939CF00BE6D89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39232349185939CF00BE6D89 /* Foundation.framework */; };
 		39232365185939CF00BE6D89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3923234D185939CF00BE6D89 /* UIKit.framework */; };
 		3923236D185939CF00BE6D89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3923236B185939CF00BE6D89 /* InfoPlist.strings */; };
-		3923236F185939CF00BE6D89 /* ContactListDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3923236E185939CF00BE6D89 /* ContactListDemoTests.m */; };
+		BD8450F3405F8644B16B2490 /* ContactsPartitionHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8453C6C0AF9DCF24A83BCE /* ContactsPartitionHelperTest.m */; };
+		BD845A833B68E73C5248E9A8 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD845DF4E3B9964FE1F3F047 /* ContactsViewController.m */; };
+		BD845BA1A2C4B2DBE0094110 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = BD845ACB0F8353C2A0BE7FDD /* Contact.m */; };
+		BD845D1AD97F5451228648E2 /* ContactsDelegateDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BD845A77C067ED2793A21A68 /* ContactsDelegateDataSource.m */; };
+		BD845F07C578408069E75BD9 /* ContactsPartitionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BD845FC4325F231B3450BEE7 /* ContactsPartitionHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +51,16 @@
 		39232362185939CF00BE6D89 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3923236A185939CF00BE6D89 /* ContactListDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ContactListDemoTests-Info.plist"; sourceTree = "<group>"; };
 		3923236C185939CF00BE6D89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3923236E185939CF00BE6D89 /* ContactListDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactListDemoTests.m; sourceTree = "<group>"; };
+		BD8453C6C0AF9DCF24A83BCE /* ContactsPartitionHelperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsPartitionHelperTest.m; sourceTree = "<group>"; };
+		BD8459DF16A37B8531A9F82A /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		BD845A77C067ED2793A21A68 /* ContactsDelegateDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsDelegateDataSource.m; sourceTree = "<group>"; };
+		BD845ACB0F8353C2A0BE7FDD /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		BD845BC6908BB53D27D6C1D4 /* ContactsPartitionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsPartitionHelper.h; sourceTree = "<group>"; };
+		BD845DAEA4FC53D1D18EDA9D /* ContactsPartitionHelperTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsPartitionHelperTest.h; sourceTree = "<group>"; };
+		BD845DF4E3B9964FE1F3F047 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		BD845E70E6E3A0D280D5B651 /* ContactsDelegateDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsDelegateDataSource.h; sourceTree = "<group>"; };
+		BD845E9165757CEE31BB5F6D /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		BD845FC4325F231B3450BEE7 /* ContactsPartitionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsPartitionHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +124,14 @@
 				39232359185939CF00BE6D89 /* AppDelegate.m */,
 				3923235B185939CF00BE6D89 /* Images.xcassets */,
 				39232350185939CF00BE6D89 /* Supporting Files */,
+				BD845DF4E3B9964FE1F3F047 /* ContactsViewController.m */,
+				BD8459DF16A37B8531A9F82A /* ContactsViewController.h */,
+				BD845A77C067ED2793A21A68 /* ContactsDelegateDataSource.m */,
+				BD845E70E6E3A0D280D5B651 /* ContactsDelegateDataSource.h */,
+				BD845ACB0F8353C2A0BE7FDD /* Contact.m */,
+				BD845E9165757CEE31BB5F6D /* Contact.h */,
+				BD845FC4325F231B3450BEE7 /* ContactsPartitionHelper.m */,
+				BD845BC6908BB53D27D6C1D4 /* ContactsPartitionHelper.h */,
 			);
 			path = ContactListDemo;
 			sourceTree = "<group>";
@@ -129,8 +150,9 @@
 		39232368185939CF00BE6D89 /* ContactListDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				3923236E185939CF00BE6D89 /* ContactListDemoTests.m */,
 				39232369185939CF00BE6D89 /* Supporting Files */,
+				BD8453C6C0AF9DCF24A83BCE /* ContactsPartitionHelperTest.m */,
+				BD845DAEA4FC53D1D18EDA9D /* ContactsPartitionHelperTest.h */,
 			);
 			path = ContactListDemoTests;
 			sourceTree = "<group>";
@@ -241,6 +263,10 @@
 			files = (
 				3923235A185939CF00BE6D89 /* AppDelegate.m in Sources */,
 				39232356185939CF00BE6D89 /* main.m in Sources */,
+				BD845A833B68E73C5248E9A8 /* ContactsViewController.m in Sources */,
+				BD845D1AD97F5451228648E2 /* ContactsDelegateDataSource.m in Sources */,
+				BD845BA1A2C4B2DBE0094110 /* Contact.m in Sources */,
+				BD845F07C578408069E75BD9 /* ContactsPartitionHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3923236F185939CF00BE6D89 /* ContactListDemoTests.m in Sources */,
+				BD8450F3405F8644B16B2490 /* ContactsPartitionHelperTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
